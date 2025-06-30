@@ -1,0 +1,14 @@
+/* Override white-space for react-syntax-highlighter with Dracula */
+
+.react-syntax-highlighter {
+  white-space: pre-wrap !important;
+  word-break: break-word !important;
+  overflow-x: hidden !important;
+}
+
+/* Sometimes needed for Prism-specific classes */
+.react-syntax-highlighter code {
+  white-space: pre-wrap !important;
+  word-break: break-word !important;
+  overflow-x: hidden !important;
+}
