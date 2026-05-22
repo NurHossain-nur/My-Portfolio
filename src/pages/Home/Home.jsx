@@ -126,8 +126,8 @@ const Home = () => {
                 View Projects <FaArrowRight className="text-xs" />
               </motion.a>
               <motion.a
-                href="/resume.pdf"
-                download
+                href="/resume"
+                // download
                 whileHover={{ scale: 1.03, y: -2 }}
                 whileTap={{ scale: 0.97 }}
                 className="inline-flex items-center gap-2 text-sm font-semibold text-base-content/70 hover:text-primary border border-base-content/10 hover:border-primary/40 px-7 py-3.5 rounded-full transition-all duration-300"

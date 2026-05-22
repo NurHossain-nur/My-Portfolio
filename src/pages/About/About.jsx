@@ -173,7 +173,7 @@ const About = () => {
             {/* Resume CTA */}
             <div className="pt-2">
               <a
-                href="/resume.pdf"
+                href="/Nur_Hossain_Resume_Final.pdf"
                 download
                 className="inline-flex items-center gap-2 text-sm font-bold text-primary border border-primary/30 hover:bg-primary hover:text-base-100 px-5 py-2.5 rounded-full transition-all duration-300 hover:-translate-y-0.5 shadow-sm hover:shadow-primary/20"
               >

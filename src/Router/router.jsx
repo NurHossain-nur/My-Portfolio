@@ -6,6 +6,7 @@ import HomeLayout from "../layouts/HomeLayout";
 import ProjectDetails from "../pages/ProjectDetails/ProjectDetails";
 import Projects from "../pages/Projects/Projects";
 import Contact from "../pages/Contact/Contact";
+import Resume from "../pages/Resume/Resume";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/projects/:id",
         Component: ProjectDetails
+      },
+      {
+        path: "/resume",
+        Component: Resume
       }
     ]
     
